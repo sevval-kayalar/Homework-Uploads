@@ -1,7 +1,0 @@
-Tarih,Hat,Enerji Tipi,Tuketim (kWh),Uretim Adedi,Hedef kWh/birim,CO2 Faktoru,Planlanan Iyilestirme,Sorumlu Ekip,Durum
-2026-03-30,HAT-01,Elektrik,1500,820,2.15,0.00042,Standart izleme,Tesis,Kapandi
-2026-03-30,HAT-02,Dogalgaz,720,780,1.35,0.00020,Standart izleme,Tesis,Izlemede
-2026-03-30,HAT-03,Basincli Hava,410,690,0.58,0.00008,Kacak kontrolu,Tesis,Acik
-2026-03-31,HAT-01,Elektrik,3000,820,2.15,0.00042,Standart izleme,Tesis,Acik
-2026-03-31,HAT-02,Dogalgaz,1450,780,1.35,0.00020,Standart izleme,Tesis,Acik
-2026-03-31,HAT-03,Basincli Hava,850,690,0.58,0.00008,Kacak kontrolu,Tesis,Acik
