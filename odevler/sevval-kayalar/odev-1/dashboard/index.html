@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Enerji ve Sürdürülebilirlik Panosu</title>
+    <link rel="stylesheet" href="styles.css?v=risk-2">
+  </head>
+  <body>
+    <main class="shell">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">VALEO saha uygulamasi</p>
+          <h1>Enerji ve Sürdürülebilirlik Panosu</h1>
+        </div>
+        <div class="meta">
+          <span>Son güncelleme</span>
+          <strong id="lastUpdated">Yükleniyor</strong>
+        </div>
+      </header>
+
+      <section class="filters" aria-label="Filtreler">
+        <label>
+          Hat
+          <select id="lineFilter">
+            <option value="all">Tüm hatlar</option>
+          </select>
+        </label>
+        <label>
+          Enerji tipi
+          <select id="energyFilter">
+            <option value="all">Tüm enerji tipleri</option>
+          </select>
+        </label>
+        <label>
+          Dönem
+          <select id="periodFilter">
+            <option value="30">Son 30 gün</option>
+            <option value="60">Son 60 gün</option>
+            <option value="90">Son 90 gün</option>
+            <option value="all">Tüm veri</option>
+          </select>
+        </label>
+      </section>
+
+      <div id="dataSummary" class="data-summary">Veri kaynağı bekleniyor.</div>
+      <div id="stateMessage" class="state" role="status" aria-live="polite"></div>
+
+      <section class="tabs" aria-label="Pano ekranlari">
+        <button class="tab is-active" data-panel="summary" type="button">Özet</button>
+        <button class="tab" data-panel="trend" type="button">Trend</button>
+        <button class="tab" data-panel="breakdown" type="button">Kırılım</button>
+        <button class="tab" data-panel="actions" type="button">Aksiyon</button>
+      </section>
+
+      <section id="summary" class="panel is-active" aria-labelledby="summary-title">
+        <div class="panel-title">
+          <h2 id="summary-title">E1 - Özet / KPI</h2>
+          <p>Üretim hacmine göre normalize edilmiş enerji performansı.</p>
+        </div>
+        <div class="kpi-grid" id="kpiGrid"></div>
+        <div class="chart-pair">
+          <article class="chart-card">
+            <div class="chart-title">
+              <h3>Enerji akış özeti</h3>
+              <span>KPI rengi: risk durumu, grafik rengi: enerji tipi</span>
+            </div>
+            <canvas id="gaugeCanvas" width="720" height="260"></canvas>
+          </article>
+          <article class="chart-card">
+            <div class="chart-title">
+              <h3>Enerji tipi dağılımı</h3>
+              <span>Etiketli paylar</span>
+            </div>
+            <canvas id="mixCanvas" width="720" height="260"></canvas>
+          </article>
+        </div>
+      </section>
+
+      <section id="trend" class="panel" aria-labelledby="trend-title">
+        <div class="panel-title">
+          <h2 id="trend-title">E2 - Trend</h2>
+          <p>kWh/birim performansının mevcut dönem ve önceki dönem karşılaştırması.</p>
+        </div>
+        <article class="chart-card wide">
+          <div class="chart-title">
+            <h3>Günlük kWh/birim karşılaştırması</h3>
+              <span>Renk: seçili enerji tipi, gri: önceki dönem</span>
+          </div>
+          <canvas id="trendCanvas" width="1120" height="430"></canvas>
+        </article>
+      </section>
+
+      <section id="breakdown" class="panel" aria-labelledby="breakdown-title">
+        <div class="panel-title">
+          <h2 id="breakdown-title">E3 - Kırılım / Pareto</h2>
+          <p>Hedef sapmasının hat bazında hangi noktalarda yoğunlaştığı.</p>
+        </div>
+        <article class="chart-card wide">
+          <div class="chart-title">
+            <h3>Hat bazında hedef sapması</h3>
+            <span>Sütun grafik</span>
+          </div>
+          <canvas id="paretoCanvas" width="1120" height="430"></canvas>
+        </article>
+      </section>
+
+      <section id="actions" class="panel" aria-labelledby="actions-title">
+        <div class="panel-title">
+          <h2 id="actions-title">E4 - Detay / Aksiyon</h2>
+          <p>Kritik sapmalar için takip listesi ve sorumlu ekip görünümü.</p>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Hat</th>
+                <th>Enerji tipi</th>
+                <th>kWh/birim</th>
+                <th>Hedef</th>
+                <th>Sapma</th>
+                <th>Aksiyon</th>
+                <th>Durum</th>
+              </tr>
+            </thead>
+            <tbody id="actionRows"></tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+
+    <script src="data-config.js?v=risk-2"></script>
+    <script src="app.js?v=risk-2"></script>
+  </body>
+</html>

@@ -1,0 +1,271 @@
+Tarih,Hat,Enerji Tipi,Tuketim (kWh),Uretim Adedi,Hedef kWh/birim,CO2 Faktoru,Planlanan Iyilestirme,Sorumlu Ekip,Durum
+2026-01-01,HAT-01,Elektrik,1613.8,801,2.15,0.00042,Standart izleme,Tesis,Acik
+2026-01-01,HAT-02,Dogalgaz,624.6,601,1.35,0.0002,Standart izleme,Tesis,Kapandi
+2026-01-01,HAT-03,Basincli Hava,151.2,670,0.58,8e-05,Kacak kontrolu,Tesis,Kapandi
+2026-01-02,HAT-01,Dogalgaz,907.8,863,1.35,0.0002,Standart izleme,Tesis,Izlemede
+2026-01-02,HAT-02,Basincli Hava,152.6,689,0.58,8e-05,Basinc optimizasyonu,Tesis,Izlemede
+2026-01-02,HAT-03,Elektrik,1577.9,633,2.15,0.00042,Kacak kontrolu,Tesis,Izlemede
+2026-01-03,HAT-01,Basincli Hava,190.4,909,0.58,8e-05,Basinc optimizasyonu,Tesis,Acik
+2026-01-03,HAT-02,Elektrik,1642.5,686,2.15,0.00042,Standart izleme,Tesis,Izlemede
+2026-01-03,HAT-03,Dogalgaz,869.5,816,1.35,0.0002,Kacak kontrolu,Tesis,Izlemede
+2026-01-04,HAT-01,Elektrik,1941.0,855,2.15,0.00042,Standart izleme,Tesis,Izlemede
+2026-01-04,HAT-02,Dogalgaz,752.4,749,1.35,0.0002,Standart izleme,Tesis,Izlemede
+2026-01-04,HAT-03,Basincli Hava,149.3,687,0.58,8e-05,Kacak kontrolu,Tesis,Kapandi
+2026-01-05,HAT-01,Dogalgaz,908.8,847,1.35,0.0002,Standart izleme,Tesis,Kapandi
+2026-01-05,HAT-02,Basincli Hava,156.9,783,0.58,8e-05,Basinc optimizasyonu,Tesis,Kapandi
+2026-01-05,HAT-03,Elektrik,2223.9,809,2.15,0.00042,Kacak kontrolu,Tesis,Kapandi
+2026-01-06,HAT-01,Basincli Hava,183.9,842,0.58,8e-05,Basinc optimizasyonu,Tesis,Acik
+2026-01-06,HAT-02,Elektrik,1637.3,735,2.15,0.00042,Standart izleme,Tesis,Kapandi
+2026-01-06,HAT-03,Dogalgaz,695.2,591,1.35,0.0002,Kacak kontrolu,Tesis,Acik
+2026-01-07,HAT-01,Elektrik,2088.9,845,2.15,0.00042,Standart izleme,Tesis,Kapandi
+2026-01-07,HAT-02,Dogalgaz,836.1,798,1.35,0.0002,Standart izleme,Tesis,Izlemede
+2026-01-07,HAT-03,Basincli Hava,147.4,608,0.58,8e-05,Kacak kontrolu,Tesis,Kapandi
+2026-01-08,HAT-01,Dogalgaz,824.9,862,1.35,0.0002,Standart izleme,Tesis,Acik
+2026-01-08,HAT-02,Basincli Hava,202.8,900,0.58,8e-05,Basinc optimizasyonu,Tesis,Acik
+2026-01-08,HAT-03,Elektrik,1861.8,701,2.15,0.00042,Kacak kontrolu,Tesis,Acik
+2026-01-09,HAT-01,Basincli Hava,152.1,724,0.58,8e-05,Basinc optimizasyonu,Tesis,Kapandi
+2026-01-09,HAT-02,Elektrik,1986.6,800,2.15,0.00042,Standart izleme,Tesis,Izlemede
+2026-01-09,HAT-03,Dogalgaz,990.5,795,1.35,0.0002,Kacak kontrolu,Tesis,Acik
+2026-01-10,HAT-01,Elektrik,1751.1,819,2.15,0.00042,Standart izleme,Tesis,Izlemede
+2026-01-10,HAT-02,Dogalgaz,733.2,641,1.35,0.0002,Standart izleme,Tesis,Izlemede
+2026-01-10,HAT-03,Basincli Hava,145.4,594,0.58,8e-05,Kacak kontrolu,Tesis,Kapandi
+2026-01-11,HAT-01,Dogalgaz,1123.6,977,1.35,0.0002,Standart izleme,Tesis,Izlemede
+2026-01-11,HAT-02,Basincli Hava,167.7,734,0.58,8e-05,Basinc optimizasyonu,Tesis,Izlemede
+2026-01-11,HAT-03,Elektrik,1752.7,690,2.15,0.00042,Kacak kontrolu,Tesis,Izlemede
+2026-01-12,HAT-01,Basincli Hava,176.2,755,0.58,8e-05,Basinc optimizasyonu,Tesis,Acik
+2026-01-12,HAT-02,Elektrik,1674.6,641,2.15,0.00042,Standart izleme,Tesis,Acik
+2026-01-12,HAT-03,Dogalgaz,884.4,772,1.35,0.0002,Kacak kontrolu,Tesis,Kapandi
+2026-01-13,HAT-01,Elektrik,1644.7,648,2.15,0.00042,Standart izleme,Tesis,Izlemede
+2026-01-13,HAT-02,Dogalgaz,928.9,810,1.35,0.0002,Standart izleme,Tesis,Izlemede
+2026-01-13,HAT-03,Basincli Hava,185.6,710,0.58,8e-05,Kacak kontrolu,Tesis,Acik
+2026-01-14,HAT-01,Dogalgaz,848.8,840,1.35,0.0002,Standart izleme,Tesis,Acik
+2026-01-14,HAT-02,Basincli Hava,183.1,824,0.58,8e-05,Basinc optimizasyonu,Tesis,Acik
+2026-01-14,HAT-03,Elektrik,1784.8,650,2.15,0.00042,Kacak kontrolu,Tesis,Kapandi
+2026-01-15,HAT-01,Basincli Hava,181.4,843,0.58,8e-05,Basinc optimizasyonu,Tesis,Kapandi
+2026-01-15,HAT-02,Elektrik,1732.9,734,2.15,0.00042,Standart izleme,Tesis,Izlemede
+2026-01-15,HAT-03,Dogalgaz,1050.1,857,1.35,0.0002,Kacak kontrolu,Tesis,Izlemede
+2026-01-16,HAT-01,Elektrik,2115.3,840,2.15,0.00042,Standart izleme,Tesis,Acik
+2026-01-16,HAT-02,Dogalgaz,741.2,634,1.35,0.0002,Standart izleme,Tesis,Kapandi
+2026-01-16,HAT-03,Basincli Hava,213.3,882,0.58,8e-05,Kacak kontrolu,Tesis,Kapandi
+2026-01-17,HAT-01,Dogalgaz,731.7,720,1.35,0.0002,Standart izleme,Tesis,Kapandi
+2026-01-17,HAT-02,Basincli Hava,209.8,892,0.58,8e-05,Basinc optimizasyonu,Tesis,Acik
+2026-01-17,HAT-03,Elektrik,1775.5,627,2.15,0.00042,Kacak kontrolu,Tesis,Kapandi
+2026-01-18,HAT-01,Basincli Hava,202.0,838,0.58,8e-05,Basinc optimizasyonu,Tesis,Acik
+2026-01-18,HAT-02,Elektrik,1761.4,731,2.15,0.00042,Standart izleme,Tesis,Izlemede
+2026-01-18,HAT-03,Dogalgaz,848.0,735,1.35,0.0002,Kacak kontrolu,Tesis,Izlemede
+2026-01-19,HAT-01,Elektrik,2178.3,931,2.15,0.00042,Standart izleme,Tesis,Izlemede
+2026-01-19,HAT-02,Dogalgaz,1015.6,862,1.35,0.0002,Standart izleme,Tesis,Izlemede
+2026-01-19,HAT-03,Basincli Hava,156.6,633,0.58,8e-05,Kacak kontrolu,Tesis,Kapandi
+2026-01-20,HAT-01,Dogalgaz,735.3,655,1.35,0.0002,Standart izleme,Tesis,Izlemede
+2026-01-20,HAT-02,Basincli Hava,223.5,925,0.58,8e-05,Basinc optimizasyonu,Tesis,Acik
+2026-01-20,HAT-03,Elektrik,1866.0,737,2.15,0.00042,Kacak kontrolu,Tesis,Acik
+2026-01-21,HAT-01,Basincli Hava,156.9,705,0.58,8e-05,Basinc optimizasyonu,Tesis,Acik
+2026-01-21,HAT-02,Elektrik,1650.4,611,2.15,0.00042,Standart izleme,Tesis,Acik
+2026-01-21,HAT-03,Dogalgaz,727.8,599,1.35,0.0002,Kacak kontrolu,Tesis,Acik
+2026-01-22,HAT-01,Elektrik,2013.7,811,2.15,0.00042,Standart izleme,Tesis,Kapandi
+2026-01-22,HAT-02,Dogalgaz,849.3,771,1.35,0.0002,Standart izleme,Tesis,Izlemede
+2026-01-22,HAT-03,Basincli Hava,208.5,862,0.58,8e-05,Kacak kontrolu,Tesis,Izlemede
+2026-01-23,HAT-01,Dogalgaz,997.6,846,1.35,0.0002,Standart izleme,Tesis,Kapandi
+2026-01-23,HAT-02,Basincli Hava,177.8,741,0.58,8e-05,Basinc optimizasyonu,Tesis,Kapandi
+2026-01-23,HAT-03,Elektrik,1483.7,550,2.15,0.00042,Kacak kontrolu,Tesis,Izlemede
+2026-01-24,HAT-01,Basincli Hava,218.0,941,0.58,8e-05,Basinc optimizasyonu,Tesis,Izlemede
+2026-01-24,HAT-02,Elektrik,2065.4,833,2.15,0.00042,Standart izleme,Tesis,Izlemede
+2026-01-24,HAT-03,Dogalgaz,842.8,740,1.35,0.0002,Kacak kontrolu,Tesis,Kapandi
+2026-01-25,HAT-01,Elektrik,1671.2,745,2.15,0.00042,Standart izleme,Tesis,Izlemede
+2026-01-25,HAT-02,Dogalgaz,762.0,648,1.35,0.0002,Standart izleme,Tesis,Kapandi
+2026-01-25,HAT-03,Basincli Hava,183.9,691,0.58,8e-05,Kacak kontrolu,Tesis,Acik
+2026-01-26,HAT-01,Dogalgaz,1032.4,875,1.35,0.0002,Standart izleme,Tesis,Acik
+2026-01-26,HAT-02,Basincli Hava,190.6,812,0.58,8e-05,Basinc optimizasyonu,Tesis,Kapandi
+2026-01-26,HAT-03,Elektrik,1684.3,652,2.15,0.00042,Kacak kontrolu,Tesis,Izlemede
+2026-01-27,HAT-01,Basincli Hava,166.3,764,0.58,8e-05,Basinc optimizasyonu,Tesis,Acik
+2026-01-27,HAT-02,Elektrik,1607.7,675,2.15,0.00042,Standart izleme,Tesis,Izlemede
+2026-01-27,HAT-03,Dogalgaz,808.3,699,1.35,0.0002,Kacak kontrolu,Tesis,Izlemede
+2026-01-28,HAT-01,Elektrik,1801.4,744,2.15,0.00042,Standart izleme,Tesis,Izlemede
+2026-01-28,HAT-02,Dogalgaz,752.6,683,1.35,0.0002,Standart izleme,Tesis,Acik
+2026-01-28,HAT-03,Basincli Hava,176.9,696,0.58,8e-05,Kacak kontrolu,Tesis,Acik
+2026-01-29,HAT-01,Dogalgaz,817.2,710,1.35,0.0002,Standart izleme,Tesis,Kapandi
+2026-01-29,HAT-02,Basincli Hava,164.0,715,0.58,8e-05,Basinc optimizasyonu,Tesis,Izlemede
+2026-01-29,HAT-03,Elektrik,1831.6,669,2.15,0.00042,Kacak kontrolu,Tesis,Acik
+2026-01-30,HAT-01,Basincli Hava,199.1,909,0.58,8e-05,Basinc optimizasyonu,Tesis,Kapandi
+2026-01-30,HAT-02,Elektrik,1466.9,588,2.15,0.00042,Standart izleme,Tesis,Izlemede
+2026-01-30,HAT-03,Dogalgaz,743.1,655,1.35,0.0002,Kacak kontrolu,Tesis,Kapandi
+2026-01-31,HAT-01,Elektrik,1637.6,724,2.15,0.00042,Standart izleme,Tesis,Izlemede
+2026-01-31,HAT-02,Dogalgaz,859.5,783,1.35,0.0002,Standart izleme,Tesis,Kapandi
+2026-01-31,HAT-03,Basincli Hava,167.1,709,0.58,8e-05,Kacak kontrolu,Tesis,Izlemede
+2026-02-01,HAT-01,Dogalgaz,897.6,821,1.35,0.0002,Standart izleme,Tesis,Acik
+2026-02-01,HAT-02,Basincli Hava,156.7,720,0.58,8e-05,Basinc optimizasyonu,Tesis,Izlemede
+2026-02-01,HAT-03,Elektrik,1794.2,744,2.15,0.00042,Kacak kontrolu,Tesis,Acik
+2026-02-02,HAT-01,Basincli Hava,176.0,798,0.58,8e-05,Basinc optimizasyonu,Tesis,Kapandi
+2026-02-02,HAT-02,Elektrik,1744.9,728,2.15,0.00042,Standart izleme,Tesis,Acik
+2026-02-02,HAT-03,Dogalgaz,777.5,666,1.35,0.0002,Kacak kontrolu,Tesis,Kapandi
+2026-02-03,HAT-01,Elektrik,1676.9,775,2.15,0.00042,Standart izleme,Tesis,Acik
+2026-02-03,HAT-02,Dogalgaz,842.4,763,1.35,0.0002,Standart izleme,Tesis,Izlemede
+2026-02-03,HAT-03,Basincli Hava,163.4,665,0.58,8e-05,Kacak kontrolu,Tesis,Kapandi
+2026-02-04,HAT-01,Dogalgaz,870.8,855,1.35,0.0002,Standart izleme,Tesis,Acik
+2026-02-04,HAT-02,Basincli Hava,168.7,770,0.58,8e-05,Basinc optimizasyonu,Tesis,Kapandi
+2026-02-04,HAT-03,Elektrik,1679.6,652,2.15,0.00042,Kacak kontrolu,Tesis,Izlemede
+2026-02-05,HAT-01,Basincli Hava,185.7,894,0.58,8e-05,Basinc optimizasyonu,Tesis,Acik
+2026-02-05,HAT-02,Elektrik,1667.4,696,2.15,0.00042,Standart izleme,Tesis,Acik
+2026-02-05,HAT-03,Dogalgaz,663.3,606,1.35,0.0002,Kacak kontrolu,Tesis,Izlemede
+2026-02-06,HAT-01,Elektrik,2185.0,912,2.15,0.00042,Standart izleme,Tesis,Acik
+2026-02-06,HAT-02,Dogalgaz,705.9,684,1.35,0.0002,Standart izleme,Tesis,Kapandi
+2026-02-06,HAT-03,Basincli Hava,184.9,758,0.58,8e-05,Kacak kontrolu,Tesis,Izlemede
+2026-02-07,HAT-01,Dogalgaz,702.8,752,1.35,0.0002,Standart izleme,Tesis,Acik
+2026-02-07,HAT-02,Basincli Hava,142.5,711,0.58,8e-05,Basinc optimizasyonu,Tesis,Acik
+2026-02-07,HAT-03,Elektrik,1725.2,718,2.15,0.00042,Kacak kontrolu,Tesis,Izlemede
+2026-02-08,HAT-01,Basincli Hava,176.5,840,0.58,8e-05,Basinc optimizasyonu,Tesis,Kapandi
+2026-02-08,HAT-02,Elektrik,1218.2,539,2.15,0.00042,Standart izleme,Tesis,Kapandi
+2026-02-08,HAT-03,Dogalgaz,885.0,753,1.35,0.0002,Kacak kontrolu,Tesis,Kapandi
+2026-02-09,HAT-01,Elektrik,1566.9,788,2.15,0.00042,Standart izleme,Tesis,Izlemede
+2026-02-09,HAT-02,Dogalgaz,744.4,742,1.35,0.0002,Standart izleme,Tesis,Acik
+2026-02-09,HAT-03,Basincli Hava,196.7,920,0.58,8e-05,Kacak kontrolu,Tesis,Kapandi
+2026-02-10,HAT-01,Dogalgaz,751.8,817,1.35,0.0002,Standart izleme,Tesis,Kapandi
+2026-02-10,HAT-02,Basincli Hava,144.0,687,0.58,8e-05,Basinc optimizasyonu,Tesis,Acik
+2026-02-10,HAT-03,Elektrik,1582.7,705,2.15,0.00042,Kacak kontrolu,Tesis,Acik
+2026-02-11,HAT-01,Basincli Hava,158.8,835,0.58,8e-05,Basinc optimizasyonu,Tesis,Izlemede
+2026-02-11,HAT-02,Elektrik,1803.9,803,2.15,0.00042,Standart izleme,Tesis,Izlemede
+2026-02-11,HAT-03,Dogalgaz,697.3,677,1.35,0.0002,Kacak kontrolu,Tesis,Acik
+2026-02-12,HAT-01,Elektrik,1719.5,741,2.15,0.00042,Standart izleme,Tesis,Izlemede
+2026-02-12,HAT-02,Dogalgaz,706.7,759,1.35,0.0002,Standart izleme,Tesis,Izlemede
+2026-02-12,HAT-03,Basincli Hava,180.2,878,0.58,8e-05,Kacak kontrolu,Tesis,Acik
+2026-02-13,HAT-01,Dogalgaz,655.3,747,1.35,0.0002,Standart izleme,Tesis,Kapandi
+2026-02-13,HAT-02,Basincli Hava,166.3,841,0.58,8e-05,Basinc optimizasyonu,Tesis,Izlemede
+2026-02-13,HAT-03,Elektrik,1574.6,703,2.15,0.00042,Kacak kontrolu,Tesis,Izlemede
+2026-02-14,HAT-01,Basincli Hava,173.8,831,0.58,8e-05,Basinc optimizasyonu,Tesis,Kapandi
+2026-02-14,HAT-02,Elektrik,1383.6,683,2.15,0.00042,Standart izleme,Tesis,Acik
+2026-02-14,HAT-03,Dogalgaz,647.6,626,1.35,0.0002,Kacak kontrolu,Tesis,Acik
+2026-02-15,HAT-01,Elektrik,1854.4,918,2.15,0.00042,Standart izleme,Tesis,Acik
+2026-02-15,HAT-02,Dogalgaz,793.2,769,1.35,0.0002,Standart izleme,Tesis,Izlemede
+2026-02-15,HAT-03,Basincli Hava,155.9,788,0.58,8e-05,Kacak kontrolu,Tesis,Acik
+2026-02-16,HAT-01,Dogalgaz,758.9,813,1.35,0.0002,Standart izleme,Tesis,Izlemede
+2026-02-16,HAT-02,Basincli Hava,153.3,767,0.58,8e-05,Basinc optimizasyonu,Tesis,Acik
+2026-02-16,HAT-03,Elektrik,1662.5,742,2.15,0.00042,Kacak kontrolu,Tesis,Izlemede
+2026-02-17,HAT-01,Basincli Hava,164.9,820,0.58,8e-05,Basinc optimizasyonu,Tesis,Kapandi
+2026-02-17,HAT-02,Elektrik,1565.9,764,2.15,0.00042,Standart izleme,Tesis,Kapandi
+2026-02-17,HAT-03,Dogalgaz,777.0,735,1.35,0.0002,Kacak kontrolu,Tesis,Acik
+2026-02-18,HAT-01,Elektrik,1677.6,787,2.15,0.00042,Standart izleme,Tesis,Kapandi
+2026-02-18,HAT-02,Dogalgaz,713.4,744,1.35,0.0002,Standart izleme,Tesis,Acik
+2026-02-18,HAT-03,Basincli Hava,142.6,714,0.58,8e-05,Kacak kontrolu,Tesis,Kapandi
+2026-02-19,HAT-01,Dogalgaz,706.5,787,1.35,0.0002,Standart izleme,Tesis,Izlemede
+2026-02-19,HAT-02,Basincli Hava,153.7,838,0.58,8e-05,Basinc optimizasyonu,Tesis,Izlemede
+2026-02-19,HAT-03,Elektrik,1430.9,590,2.15,0.00042,Kacak kontrolu,Tesis,Kapandi
+2026-02-20,HAT-01,Basincli Hava,168.2,885,0.58,8e-05,Basinc optimizasyonu,Tesis,Izlemede
+2026-02-20,HAT-02,Elektrik,1811.3,809,2.15,0.00042,Standart izleme,Tesis,Izlemede
+2026-02-20,HAT-03,Dogalgaz,753.8,691,1.35,0.0002,Kacak kontrolu,Tesis,Izlemede
+2026-02-21,HAT-01,Elektrik,1501.7,764,2.15,0.00042,Standart izleme,Tesis,Kapandi
+2026-02-21,HAT-02,Dogalgaz,703.3,786,1.35,0.0002,Standart izleme,Tesis,Acik
+2026-02-21,HAT-03,Basincli Hava,140.1,649,0.58,8e-05,Kacak kontrolu,Tesis,Izlemede
+2026-02-22,HAT-01,Dogalgaz,853.7,910,1.35,0.0002,Standart izleme,Tesis,Izlemede
+2026-02-22,HAT-02,Basincli Hava,181.2,876,0.58,8e-05,Basinc optimizasyonu,Tesis,Acik
+2026-02-22,HAT-03,Elektrik,1462.0,663,2.15,0.00042,Kacak kontrolu,Tesis,Kapandi
+2026-02-23,HAT-01,Basincli Hava,151.4,789,0.58,8e-05,Basinc optimizasyonu,Tesis,Kapandi
+2026-02-23,HAT-02,Elektrik,1492.4,725,2.15,0.00042,Standart izleme,Tesis,Kapandi
+2026-02-23,HAT-03,Dogalgaz,660.1,678,1.35,0.0002,Kacak kontrolu,Tesis,Acik
+2026-02-24,HAT-01,Elektrik,1875.8,886,2.15,0.00042,Standart izleme,Tesis,Izlemede
+2026-02-24,HAT-02,Dogalgaz,629.7,698,1.35,0.0002,Standart izleme,Tesis,Izlemede
+2026-02-24,HAT-03,Basincli Hava,144.8,756,0.58,8e-05,Kacak kontrolu,Tesis,Izlemede
+2026-02-25,HAT-01,Dogalgaz,625.1,754,1.35,0.0002,Standart izleme,Tesis,Izlemede
+2026-02-25,HAT-02,Basincli Hava,160.7,803,0.58,8e-05,Basinc optimizasyonu,Tesis,Acik
+2026-02-25,HAT-03,Elektrik,1586.4,725,2.15,0.00042,Kacak kontrolu,Tesis,Izlemede
+2026-02-26,HAT-01,Basincli Hava,155.4,788,0.58,8e-05,Basinc optimizasyonu,Tesis,Acik
+2026-02-26,HAT-02,Elektrik,1714.6,799,2.15,0.00042,Standart izleme,Tesis,Izlemede
+2026-02-26,HAT-03,Dogalgaz,761.9,754,1.35,0.0002,Kacak kontrolu,Tesis,Kapandi
+2026-02-27,HAT-01,Elektrik,1588.0,783,2.15,0.00042,Standart izleme,Tesis,Kapandi
+2026-02-27,HAT-02,Dogalgaz,904.4,894,1.35,0.0002,Standart izleme,Tesis,Kapandi
+2026-02-27,HAT-03,Basincli Hava,160.9,759,0.58,8e-05,Kacak kontrolu,Tesis,Kapandi
+2026-02-28,HAT-01,Dogalgaz,671.6,752,1.35,0.0002,Standart izleme,Tesis,Izlemede
+2026-02-28,HAT-02,Basincli Hava,147.9,723,0.58,8e-05,Basinc optimizasyonu,Tesis,Kapandi
+2026-02-28,HAT-03,Elektrik,1762.9,806,2.15,0.00042,Kacak kontrolu,Tesis,Kapandi
+2026-03-01,HAT-01,Basincli Hava,152.8,808,0.58,8e-05,Basinc optimizasyonu,Tesis,Izlemede
+2026-03-01,HAT-02,Elektrik,1443.4,734,2.15,0.00042,Standart izleme,Tesis,Izlemede
+2026-03-01,HAT-03,Dogalgaz,753.0,737,1.35,0.0002,Kacak kontrolu,Tesis,Kapandi
+2026-03-02,HAT-01,Elektrik,1755.2,827,2.15,0.00042,Standart izleme,Tesis,Kapandi
+2026-03-02,HAT-02,Dogalgaz,600.9,681,1.35,0.0002,Standart izleme,Tesis,Kapandi
+2026-03-02,HAT-03,Basincli Hava,120.4,625,0.58,8e-05,Kacak kontrolu,Tesis,Kapandi
+2026-03-03,HAT-01,Dogalgaz,805.7,918,1.35,0.0002,Standart izleme,Tesis,Acik
+2026-03-03,HAT-02,Basincli Hava,151.7,835,0.58,8e-05,Basinc optimizasyonu,Tesis,Izlemede
+2026-03-03,HAT-03,Elektrik,1851.7,775,2.15,0.00042,Kacak kontrolu,Tesis,Kapandi
+2026-03-04,HAT-01,Basincli Hava,144.0,855,0.58,8e-05,Basinc optimizasyonu,Tesis,Acik
+2026-03-04,HAT-02,Elektrik,1529.2,762,2.15,0.00042,Standart izleme,Tesis,Izlemede
+2026-03-04,HAT-03,Dogalgaz,743.6,780,1.35,0.0002,Kacak kontrolu,Tesis,Izlemede
+2026-03-05,HAT-01,Elektrik,1526.7,700,2.15,0.00042,Standart izleme,Tesis,Acik
+2026-03-05,HAT-02,Dogalgaz,629.3,620,1.35,0.0002,Standart izleme,Tesis,Kapandi
+2026-03-05,HAT-03,Basincli Hava,164.0,746,0.58,8e-05,Kacak kontrolu,Tesis,Acik
+2026-03-06,HAT-01,Dogalgaz,797.9,816,1.35,0.0002,Standart izleme,Tesis,Kapandi
+2026-03-06,HAT-02,Basincli Hava,167.2,806,0.58,8e-05,Basinc optimizasyonu,Tesis,Kapandi
+2026-03-06,HAT-03,Elektrik,1449.0,673,2.15,0.00042,Kacak kontrolu,Tesis,Acik
+2026-03-07,HAT-01,Basincli Hava,158.1,785,0.58,8e-05,Basinc optimizasyonu,Tesis,Acik
+2026-03-07,HAT-02,Elektrik,1593.5,792,2.15,0.00042,Standart izleme,Tesis,Kapandi
+2026-03-07,HAT-03,Dogalgaz,700.8,699,1.35,0.0002,Kacak kontrolu,Tesis,Kapandi
+2026-03-08,HAT-01,Elektrik,1605.5,797,2.15,0.00042,Standart izleme,Tesis,Kapandi
+2026-03-08,HAT-02,Dogalgaz,648.7,710,1.35,0.0002,Standart izleme,Tesis,Kapandi
+2026-03-08,HAT-03,Basincli Hava,137.2,662,0.58,8e-05,Kacak kontrolu,Tesis,Kapandi
+2026-03-09,HAT-01,Dogalgaz,705.4,824,1.35,0.0002,Standart izleme,Tesis,Kapandi
+2026-03-09,HAT-02,Basincli Hava,148.3,808,0.58,8e-05,Basinc optimizasyonu,Tesis,Kapandi
+2026-03-09,HAT-03,Elektrik,1372.2,629,2.15,0.00042,Kacak kontrolu,Tesis,Acik
+2026-03-10,HAT-01,Basincli Hava,162.8,799,0.58,8e-05,Basinc optimizasyonu,Tesis,Acik
+2026-03-10,HAT-02,Elektrik,1366.7,628,2.15,0.00042,Standart izleme,Tesis,Kapandi
+2026-03-10,HAT-03,Dogalgaz,844.9,755,1.35,0.0002,Kacak kontrolu,Tesis,Kapandi
+2026-03-11,HAT-01,Elektrik,1523.8,797,2.15,0.00042,Standart izleme,Tesis,Kapandi
+2026-03-11,HAT-02,Dogalgaz,674.1,702,1.35,0.0002,Standart izleme,Tesis,Acik
+2026-03-11,HAT-03,Basincli Hava,146.4,653,0.58,8e-05,Kacak kontrolu,Tesis,Kapandi
+2026-03-12,HAT-01,Dogalgaz,666.4,758,1.35,0.0002,Standart izleme,Tesis,Acik
+2026-03-12,HAT-02,Basincli Hava,143.5,766,0.58,8e-05,Basinc optimizasyonu,Tesis,Kapandi
+2026-03-12,HAT-03,Elektrik,1652.9,703,2.15,0.00042,Kacak kontrolu,Tesis,Acik
+2026-03-13,HAT-01,Basincli Hava,183.5,875,0.58,8e-05,Basinc optimizasyonu,Tesis,Izlemede
+2026-03-13,HAT-02,Elektrik,1688.9,817,2.15,0.00042,Standart izleme,Tesis,Izlemede
+2026-03-13,HAT-03,Dogalgaz,777.9,725,1.35,0.0002,Kacak kontrolu,Tesis,Acik
+2026-03-14,HAT-01,Elektrik,1474.7,673,2.15,0.00042,Standart izleme,Tesis,Izlemede
+2026-03-14,HAT-02,Dogalgaz,796.5,773,1.35,0.0002,Standart izleme,Tesis,Kapandi
+2026-03-14,HAT-03,Basincli Hava,152.8,702,0.58,8e-05,Kacak kontrolu,Tesis,Izlemede
+2026-03-15,HAT-01,Dogalgaz,705.2,741,1.35,0.0002,Standart izleme,Tesis,Izlemede
+2026-03-15,HAT-02,Basincli Hava,145.1,738,0.58,8e-05,Basinc optimizasyonu,Tesis,Izlemede
+2026-03-15,HAT-03,Elektrik,1678.3,689,2.15,0.00042,Kacak kontrolu,Tesis,Izlemede
+2026-03-16,HAT-01,Basincli Hava,135.2,718,0.58,8e-05,Basinc optimizasyonu,Tesis,Kapandi
+2026-03-16,HAT-02,Elektrik,1971.9,805,2.15,0.00042,Standart izleme,Tesis,Kapandi
+2026-03-16,HAT-03,Dogalgaz,730.7,719,1.35,0.0002,Kacak kontrolu,Tesis,Kapandi
+2026-03-17,HAT-01,Elektrik,1701.2,852,2.15,0.00042,Standart izleme,Tesis,Izlemede
+2026-03-17,HAT-02,Dogalgaz,753.2,705,1.35,0.0002,Standart izleme,Tesis,Izlemede
+2026-03-17,HAT-03,Basincli Hava,167.8,766,0.58,8e-05,Kacak kontrolu,Tesis,Acik
+2026-03-18,HAT-01,Dogalgaz,842.6,772,1.35,0.0002,Standart izleme,Tesis,Acik
+2026-03-18,HAT-02,Basincli Hava,158.0,818,0.58,8e-05,Basinc optimizasyonu,Tesis,Kapandi
+2026-03-18,HAT-03,Elektrik,1766.1,676,2.15,0.00042,Kacak kontrolu,Tesis,Acik
+2026-03-19,HAT-01,Basincli Hava,140.4,689,0.58,8e-05,Basinc optimizasyonu,Tesis,Kapandi
+2026-03-19,HAT-02,Elektrik,1813.6,821,2.15,0.00042,Standart izleme,Tesis,Izlemede
+2026-03-19,HAT-03,Dogalgaz,865.1,770,1.35,0.0002,Kacak kontrolu,Tesis,Izlemede
+2026-03-20,HAT-01,Elektrik,1922.1,810,2.15,0.00042,Standart izleme,Tesis,Izlemede
+2026-03-20,HAT-02,Dogalgaz,864.5,753,1.35,0.0002,Standart izleme,Tesis,Kapandi
+2026-03-20,HAT-03,Basincli Hava,155.7,662,0.58,8e-05,Kacak kontrolu,Tesis,Izlemede
+2026-03-21,HAT-01,Dogalgaz,909.4,853,1.35,0.0002,Standart izleme,Tesis,Izlemede
+2026-03-21,HAT-02,Basincli Hava,160.6,700,0.58,8e-05,Basinc optimizasyonu,Tesis,Izlemede
+2026-03-21,HAT-03,Elektrik,1967.5,794,2.15,0.00042,Kacak kontrolu,Tesis,Izlemede
+2026-03-22,HAT-01,Basincli Hava,176.3,810,0.58,8e-05,Basinc optimizasyonu,Tesis,Acik
+2026-03-22,HAT-02,Elektrik,1700.2,688,2.15,0.00042,Standart izleme,Tesis,Kapandi
+2026-03-22,HAT-03,Dogalgaz,724.6,634,1.35,0.0002,Kacak kontrolu,Tesis,Izlemede
+2026-03-23,HAT-01,Elektrik,1586.0,753,2.15,0.00042,Standart izleme,Tesis,Acik
+2026-03-23,HAT-02,Dogalgaz,735.6,730,1.35,0.0002,Standart izleme,Tesis,Kapandi
+2026-03-23,HAT-03,Basincli Hava,152.1,677,0.58,8e-05,Kacak kontrolu,Tesis,Kapandi
+2026-03-24,HAT-01,Dogalgaz,879.2,812,1.35,0.0002,Standart izleme,Tesis,Acik
+2026-03-24,HAT-02,Basincli Hava,153.4,683,0.58,8e-05,Basinc optimizasyonu,Tesis,Izlemede
+2026-03-24,HAT-03,Elektrik,2162.9,793,2.15,0.00042,Kacak kontrolu,Tesis,Kapandi
+2026-03-25,HAT-01,Basincli Hava,159.0,767,0.58,8e-05,Basinc optimizasyonu,Tesis,Izlemede
+2026-03-25,HAT-02,Elektrik,1733.6,740,2.15,0.00042,Standart izleme,Tesis,Izlemede
+2026-03-25,HAT-03,Dogalgaz,809.7,698,1.35,0.0002,Kacak kontrolu,Tesis,Kapandi
+2026-03-26,HAT-01,Elektrik,1983.8,815,2.15,0.00042,Standart izleme,Tesis,Izlemede
+2026-03-26,HAT-02,Dogalgaz,848.6,725,1.35,0.0002,Standart izleme,Tesis,Izlemede
+2026-03-26,HAT-03,Basincli Hava,175.5,729,0.58,8e-05,Kacak kontrolu,Tesis,Izlemede
+2026-03-27,HAT-01,Dogalgaz,912.8,797,1.35,0.0002,Standart izleme,Tesis,Izlemede
+2026-03-27,HAT-02,Basincli Hava,187.2,854,0.58,8e-05,Basinc optimizasyonu,Tesis,Acik
+2026-03-27,HAT-03,Elektrik,1914.2,696,2.15,0.00042,Kacak kontrolu,Tesis,Izlemede
+2026-03-28,HAT-01,Basincli Hava,169.6,788,0.58,8e-05,Basinc optimizasyonu,Tesis,Kapandi
+2026-03-28,HAT-02,Elektrik,1833.3,757,2.15,0.00042,Standart izleme,Tesis,Izlemede
+2026-03-28,HAT-03,Dogalgaz,941.0,788,1.35,0.0002,Kacak kontrolu,Tesis,Acik
+2026-03-29,HAT-01,Elektrik,2358.8,922,2.15,0.00042,Standart izleme,Tesis,Acik
+2026-03-29,HAT-02,Dogalgaz,939.8,795,1.35,0.0002,Standart izleme,Tesis,Kapandi
+2026-03-29,HAT-03,Basincli Hava,148.6,597,0.58,8e-05,Kacak kontrolu,Tesis,Acik
+2026-03-30,HAT-01,Dogalgaz,974.6,836,1.35,0.0002,Standart izleme,Tesis,Izlemede
+2026-03-30,HAT-02,Basincli Hava,153.9,689,0.58,8e-05,Basinc optimizasyonu,Tesis,Acik
+2026-03-30,HAT-03,Elektrik,1802.3,659,2.15,0.00042,Kacak kontrolu,Tesis,Kapandi
+2026-03-31,HAT-01,Basincli Hava,200.5,834,0.58,8e-05,Basinc optimizasyonu,Tesis,Kapandi
+2026-03-31,HAT-02,Elektrik,1945.5,751,2.15,0.00042,Standart izleme,Tesis,Izlemede
+2026-03-31,HAT-03,Dogalgaz,866.7,702,1.35,0.0002,Kacak kontrolu,Tesis,Izlemede
