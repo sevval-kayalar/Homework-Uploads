@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="utf-8">
+    <title>VALEO AdAstra Odev 1 Raporu</title>
+    <style>
+      @page { size: A4; margin: 18mm; }
+      body { color: #172026; font-family: Arial, sans-serif; line-height: 1.45; }
+      h1 { font-size: 25px; margin: 0 0 8px; }
+      h2 { border-bottom: 1px solid #cfd6dc; font-size: 18px; margin-top: 22px; padding-bottom: 4px; }
+      p, li, td, th { font-size: 11.5px; }
+      table { border-collapse: collapse; width: 100%; }
+      th, td { border: 1px solid #cfd6dc; padding: 6px; text-align: left; vertical-align: top; }
+      th { background: #eef3f8; }
+      .cover { border-left: 8px solid #1e6fba; padding-left: 14px; }
+      .note { background: #fff8e8; border-left: 5px solid #b7791f; padding: 8px 10px; }
+      pre { background: #f4f6f8; border: 1px solid #d9ded8; padding: 8px; white-space: pre-wrap; }
+    </style>
+  </head>
+  <body>
+    <section class="cover">
+      <h1>VALEO AdAstra Ara Donem Odevi #1</h1>
+      <p><strong>Ad-Soyad:</strong> Şevval Kayalar</p>
+      <p><strong>Ekip:</strong> After-Market</p>
+      <p><strong>Kullanilan arac:</strong> Chat Codex</p>
+      <p><strong>Senaryo:</strong> S6 - Enerji ve Surdurulebilirlik Panosu</p>
+      <p><strong>Veri:</strong> 270 satir sentetik veri, 01.01.2026-31.03.2026 tarih araligi</p>
+    </section>
+
+    <p class="note">Bu PDF raporunda Chat Codex calisma linki, yerel dashboard kanitlari, veri katmani ve dogrulama ekran goruntuleri birlikte sunulmustur.</p>
+
+    <h2>1. Senaryo ve Persona</h2>
+    <p>Bu calismada tesis / facility yoneticisi icin enerji ve surdurulebilirlik panosu tasarlanmistir. Panonun amaci, hat bazinda enerji tuketimini ve hedef sapmalarini izleyerek hangi alanlarda verimlilik aksiyonunun oncelikli alinacagina karar vermektir.</p>
+    <ul>
+      <li>Toplam tuketim, kWh/birim ve CO2 etkisi hedefe gore nasil ilerliyor?</li>
+      <li>Hangi hatlar veya enerji tipleri hedef sapmasini yukseltiyor?</li>
+      <li>Kritik sapmalar icin hangi aksiyonlar takip edilmeli?</li>
+    </ul>
+
+    <h2>2. Yonetisim Mimarisi</h2>
+    <pre>Chat Codex baglami
+        |
+        v
+Kalici Talimatlar ----> Uretim Standardi
+        |                     |
+        v                     v
+Google Sheet canli veri -> Dashboard uretimi
+        |
+        v
+Transcript + ekran goruntusu + rapor kaniti</pre>
+    <p>Baglam projenin amacini, persona bilgisini, teknoloji yiginini ve veri sozlesmesini tasir. Kalici talimatlar her cevapta denetlenebilir kurallari uygular. Uretim standardi ekran anatomisini, grafik secimini ve renk anlamlarini sabitler. Canli veri katmani, verinin dashboard koduna gomulmeden okunmasini saglar.</p>
+
+    <h2>3. Context Butce Notu</h2>
+    <p>Baglam siskinligini azaltmak icin uzun tasarim standardi ve veri sozlesmesi her sohbete yapistirilmez; Chat Codex proje dosyalarinda tutulur. Kalici ve test edilebilir davranis kurallari `kalici-talimat.md` icinde, uretim standardi ise ayri bilgi dosyasinda saklanir. Sohbetlerde yalnizca o turdaki hedef istek yazilir.</p>
+
+    <h2>4. Tur A vs Tur B</h2>
+    <table>
+      <thead>
+        <tr><th>Kriter</th><th>Tur A - Donatimsiz</th><th>Tur B - Donanimli</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Tasarim tutarliligi</td><td>Standart verilmedigi icin ekran yapisi serbest kalir; KPI, trend, kirilim ve aksiyon ekranlari istense de renk anlami, grafik secimi ve bos veri davranisi garanti degildir.</td><td>E1 Ozet/KPI, E2 Trend, E3 Kirilim/Pareto ve E4 Detay/Aksiyon anatomisi uretim standardina baglandi. KPI kartlari risk durumunu yesil/turuncu/kirmizi ile gosterir; grafik ve enerji isaretleri enerji tiplerini mavi/turuncu/mor ile ayirir.</td></tr>
+        <tr><td>Kural uyumu</td><td>Kalici talimat olmadigi icin para bicimi, tarih bicimi, Turkce etiket, inline CSS/JS yasagi ve bos/hata mesaji gibi kurallar sistematik denetlenmez.</td><td>Kalici talimatlar davranisi sinirlar: veri koda gomulmez, degerler okunur, tarih ISO/yerel formatla tutarli gosterilir, hata ve bos veri durumlari kullaniciya net mesajla bildirilir.</td></tr>
+        <tr><td>Veri baglama</td><td>Veri kaynagi sohbet icinde tarif edildigi veya modele birakildigi icin dashboard'un canli veri okudugunu kanitlamak zordur.</td><td>Dashboard `../veri/veri.csv` ve istege bagli Google Sheet CSV URL'si uzerinden veri okur. `data-config.js` canli kaynak adresini ayirir; filtreler ve KPI'lar okunan satirlardan hesaplanir.</td></tr>
+        <tr><td>Tekrar uretilebilirlik</td><td>Ayni serbest prompt yeniden calistirildiginda ekran sayisi, metrik adlari ve grafik tercihleri degisebilir; bu nedenle tekrar uretim sapma riski yuksektir.</td><td>Ayni talimat, standart ve veri sozlesmesiyle yeniden uretimde ekran anatomisi, metrik tanimlari, filtre davranisi ve hata durumlari korunur. 30/60/90 gun filtre testleri ayni veri havuzundan calisir.</td></tr>
+      </tbody>
+    </table>
+
+    <h2>5. En Etkili Promptlar</h2>
+    <ol>
+      <li>VALEO icin S6 Enerji ve Surdurulebilirlik senaryosunda bir dashboard uret...</li>
+      <li>Bagli Google Sheet'teki S6 enerji ve surdurulebilirlik verisini oku...</li>
+      <li>Bu sefer veriyi dogrudan JavaScript kodunun icine gomme...</li>
+      <li>Bagli Google Sheet'te bir degeri degistirdim. Veriyi yeniden oku...</li>
+    </ol>
+
+    <h2>6. Engeller ve Cozumler</h2>
+    <ul>
+      <li>Veri koda gomulurse canli baglanti kaniti zayiflar. Cozum: Veri CSV/Google Sheet katmaninda ayrildi.</li>
+      <li>Farkli uretimlerde dashboard anatomisi degisebilir. Cozum: E1-E4 ekran yapisi standartta sabitlendi.</li>
+      <li>Normal Google Sheet paylasim linki CSV olarak okunmayabilir. Cozum: `data-config.js` ile CSV export linki ayrildi; link okunamazsa pano yerel `veri.csv` ile acilip kullaniciya uyari verir.</li>
+      <li>Hedefin altindaki hatlar sifir gibi gorunebilir. Cozum: Kirilim grafiki negatif/pozitif sapmalari ayri gosterir; Aksiyon ekrani kritik yoksa da hedef icindeki izleme satirlarini listeler.</li>
+      <li>Enerji tipi rengi ile risk rengi karisabilir. Cozum: KPI kartlarinda ana renk risk durumuna, grafiklerde ve ince enerji isaretlerinde enerji tipine baglandi.</li>
+    </ul>
+
+    <h2>7. Oz Degerlendirme</h2>
+    <p>Dashboard veri katmanini koddan ayiriyor, 4 ekrani senaryoya gore karar odakli kurguluyor, filtrelere gore KPI/grafik/tabloyu yeniliyor ve bos/hata durumlarini ele aliyor. Kirilim ekraninda hat bazli sapmalar yuzde olarak gorunur; Aksiyon ekraninda hem kritik riskler hem de hedef icindeki izleme satirlari takip edilir. KPI kartlarinda yesil hedef icini, turuncu uyariyi ve kirmizi kritik riski ifade eder; enerji tipleri grafiklerde ayrica renklendirilir. Gelisim notu: Kurum hesabinda gercek Google Sheet baglantisi acildiginda `dashboard/data-config.js` icindeki CSV export adresi guncellenerek ayni pano canli kaynakla calistirilabilir.</p>
+  </body>
+</html>

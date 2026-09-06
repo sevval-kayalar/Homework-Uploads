@@ -1,0 +1,42 @@
+KALICI KURALLAR  (Chat Codex talimat/baglam alanina yapistirilir)
+============================================================================
+
+Bu asistan VALEO icin uretim, saha ve surdurulebilirlik dashboardlari uretir.
+Her cevapta asagidaki kurallara uyar:
+
+- Tum metin, baslik, tablo ve grafik etiketleri Turkce yazilir.
+- Veri asla koda gomulmez. Dashboard veriyi Google Sheet, CSV veya JSON gibi
+  ayri bir bagli kaynaktan okur.
+- Inline CSS ve inline script kullanilmaz. Stil styles.css, davranis app.js,
+  veri veri.csv veya bagli Sheet katmaninda tutulur.
+- Para degerleri varsa 1.250.000 ₺ biciminde, binlik ayracli yazilir; enerji
+  ve emisyon degerleri ilgili birimiyle gosterilir.
+- Tarihler GG.AA.YYYY biciminde kullaniciya gosterilir; kaynak veri ISO tarih
+  ile saklanabilir.
+- Her ekranda yuklenme, bos veri ve hata durumu kullaniciya acik bir mesajla
+  gosterilir.
+- Renk tek basina anlam tasimaz. Kritik durumlar renk + metin etiketi ile
+  belirtilir.
+- Mavi mevcut donemi, gri hedef veya referans degeri, yesil hedef icinde
+  durumu, sari izlenecek sapmayi, kirmizi kritik sapmayi ifade eder.
+
+SENARYOYA OZEL KURALLAR
+-----------------------
+
+- Senaryo: S6 Enerji ve Surdurulebilirlik Panosu.
+- Hedef persona: Tesis / Facility yoneticisi.
+- Ana karar: Hangi hatlarda enerji verimliligi aksiyonu onceliklendirilmeli?
+- Birim enerji = Tuketim (kWh) / Uretim Adedi.
+- Hedef sapmasi = (kWh/birim - Hedef kWh/birim) / Hedef kWh/birim.
+- CO2 etkisi = Tuketim (kWh) x CO2 Faktoru.
+- Kritik sapma %10 uzeri, izlenecek sapma %3-%10 arasi olarak siniflandirilir.
+
+PROJE BAGLAMI
+-------------
+
+- Teknoloji yigini: HTML, CSS, JavaScript, CSV veya Google Sheets canli veri kaynagi.
+- Cikti: En az 4 ekranli dashboard; E1 Ozet/KPI, E2 Trend, E3 Kirilim/Pareto,
+  E4 Detay/Aksiyon.
+- Calistirma: Sevval-Kayalar klasorunden python -m http.server 8000 komutu ile acilir.
+- Veri sozlesmesi: Tarih, Hat, Enerji Tipi, Tuketim (kWh), Uretim Adedi,
+  Hedef kWh/birim, CO2 Faktoru, Planlanan Iyilestirme, Sorumlu Ekip, Durum.

@@ -1,0 +1,38 @@
+TUR B - DONANIMLI
+=================
+
+Bu dosya kalici talimat, uretim standardi ve ayrik veri katmani kurulduktan
+sonraki Tur B kanit notudur. Calisma Chat Codex uzerinden yurudu; paylasim
+linki README icindedir.
+
+KURULUM
+-------
+
+- Chat Codex calisma baglami olusturuldu mu: Evet
+- Kalici kurallar talimat alanina yapistirildi mi: Evet
+- Uretim standardi bilgi dosyasi olarak yuklendi mi: Evet
+- Sentetik veri canli kaynak mantigina ayrildi mi: Evet, CSV/Sheet URL katmani hazir
+
+KULLANILACAK ANA PROMPT
+-----------------------
+
+Bagli Google Sheet'teki S6 enerji ve surdurulebilirlik verisini oku. Veriyi
+koda gommeden, uretim standardina ve kalici talimatlara uyan 4 ekranli
+dashboard uret: E1 Ozet/KPI, E2 Trend, E3 Kirilim/Pareto, E4 Detay/Aksiyon.
+Bos veri, hata ve yuklenme durumlarini ele al. Metrikleri veri sozlesmesindeki
+alanlardan hesapla.
+
+KONUSMANIN TAM KAYDI
+--------------------
+
+Tur B calismasinda `talimatlar/kalici-talimat.md`,
+`talimatlar/uretim-standardi.md`, `veri/veri.csv` ve dashboard dosyalari
+birlikte kullanildi. Dashboard veriyi koda gommeden CSV/Sheet URL katmanindan
+okuyacak sekilde olusturuldu.
+
+KANIT ISARETLERI
+----------------
+
+- Standart uygulandi (renk/duzen/grafik): Evet
+- Bir kural ciktinin davranisini duzeltti: Evet, veri koda gomulmedi
+- Veri canli okundu, koda gomulmedi: Evet, `data-config.js` ve `?data=` destegi var
